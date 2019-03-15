@@ -1,6 +1,6 @@
 require_relative 'config/environment'
 
-class App < Sinatra::Base
+
   # Write your code here!
 class App < Sinatra::Base
   get '/reversename/:name' do
